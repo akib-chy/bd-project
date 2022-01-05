@@ -101,7 +101,7 @@ footer P {
   color: gray;
   margin-top: 50px;
   font-size: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 /* responsive */
@@ -141,7 +141,7 @@ footer P {
     margin-left: 20px;
   }
   .box img {
-    height: 40%;
+    height: 39%;
   }
   .bottom-part a {
     margin-left: 27%;
