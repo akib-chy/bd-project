@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 33px;
+  text-align: center;
+  margin-top: 20px;
+}
+h2 {
+  font-size: 28px;
+}
+.flex-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 28px 10%;
+}
+.top-left-part {
+  width: 63%;
+}
+.top-left-part p {
+  padding: 3% 0;
+  margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.top-left-part a {
+  padding: 20px 70px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-image: linear-gradient(45deg, green, red, green);
+  color: #fff;
+  font-weight: bold;
+}
+.top-left-part a:hover {
+  background-image: linear-gradient(45deg, red, green, red);
+}
+.top-right-part {
+  width: 37%;
+}
+.top-right-part img {
+  width: 100%;
+}
+.divition {
+  width: 90%;
+  margin: auto;
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+.bottom-part {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.box img {
+  width: 100%;
+  height: 37%;
+}
+.box {
+  width: 300px;
+  height: 505px;
+  box-shadow: 4px 4px 12px grey;
+  border-radius: 5px;
+}
+.box p {
+  padding: 0 10px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+h3 {
+  text-align: center;
+  font-size: 23px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+.bottom-part a {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+  background: aqua;
+  margin-left: 32%;
+  font-size: 11px;
+  border-radius: 3px;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: all ease 0.7s;
+}
+.bottom-part a:hover {
+  color: aqua;
+  background: black;
+}
+footer P {
+  text-align: center;
+  color: gray;
+  margin-top: 50px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+/* responsive */
+@media only screen and (max-width: 572px) {
+  .top-left-part a {
+    padding: 15px 40px;
+  }
+  .top-part h2 {
+    margin-top: 50px;
+  }
+  .divition h1 {
+    display: block;
+    margin-top: 80px;
+  }
+  .bottom-part {
+    display: block;
+  }
+  .box {
+    width: 90%;
+    margin-bottom: 40px;
+    margin-left: 24px;
+  }
+  .box img {
+    height: 45%;
+  }
+  .bottom-part a {
+    margin-left: 35%;
+    padding: 13px 40px;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+}
