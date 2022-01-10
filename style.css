@@ -103,6 +103,11 @@ footer P {
   font-size: 12px;
   margin-bottom: 30px;
 }
+footer a {
+  text-decoration: none;
+  color: aqua;
+  font-weight: bold;
+}
 
 /* responsive */
 @media only screen and (max-width: 572px) {
